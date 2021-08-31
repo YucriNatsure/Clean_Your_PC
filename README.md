@@ -25,6 +25,8 @@ If you accidentally launch and run this application, you can use the salvage sof
 None
  
 # Usage
+ Be sure to grant administrative privileges before starting the program.
+Otherwise, access will be denied.
  
  Run the .exe file in the folder you downloaded
 
