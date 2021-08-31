@@ -1,0 +1,33 @@
+﻿<Window x:Class="Clean_your_PC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:properties="clr-namespace:Clean_your_PC.Properties"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+    Title="Clean Your PC" Height="450" Width="800">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="67*"/>
+        </Grid.ColumnDefinitions>
+
+        <CheckBox Margin="80.945,277,-136,-277" x:Name="Check" Checked="CheckBox_Checked" Grid.Column="1">
+            <CheckBox.LayoutTransform>
+                <ScaleTransform ScaleX="3.0" ScaleY="3.0"/>
+
+            </CheckBox.LayoutTransform>
+            <TextBlock Text="同意する"/>
+
+        </CheckBox>
+
+
+        <TextBlock Text="( :D)┸┓ﾜｧｰwwww" FontSize="50" RenderTransformOrigin="1.28,0.573" Height="78" VerticalAlignment="Bottom" Margin="95,0,133,260" Grid.Column="1"/>
+        <Button  x:Name="button1" Content="Clean Your PC" FontSize="25" HorizontalAlignment="Left" Height="52"  VerticalAlignment="Top" Width="189" Margin="414.945,200,0,0" Click="Button_Click" RenderTransformOrigin="0.527,0" Grid.Column="1"/>
+        <Button Content="About rules" HorizontalAlignment="Left" FontSize="25" Height="52" Margin="81.945,200,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click_1" RenderTransformOrigin="0.024,0.518" Grid.Column="1"/>
+
+    </Grid>
+</Window>
