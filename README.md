@@ -39,9 +39,9 @@ I don't test environments under Linux and Mac.
 *  Natsure
 * Twitter : https://twitter.com/Visual_Studio16
  
-# License
+# Licen
  
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Clean Your PC" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
  
 
  
